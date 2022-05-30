@@ -1,16 +1,12 @@
 tasks:
   - init: |
-      docker-compose pull
+      npm i
   - command: |
-      docker-compose up
+      npm run start
 
 ports:
   - port: 3000
     onOpen: open-browser
-  - port: 1880
-    onOpen: open-browser
 
-vscode:
-  extensions:
-    - ms-azuretools.vscode-docker
+
 
