@@ -57,7 +57,7 @@
 
 		<ul class="ml-[-0.60rem] flex">
 			<li>
-				<NavLink href="/">Главная</NavLink>
+				<NavLink href="/">ПОСТАМЕНТ 69</NavLink>
 			</li>
 			<li>
 				<NavLink href="/bands">О нас</NavLink>
