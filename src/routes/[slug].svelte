@@ -37,7 +37,7 @@
 	import 'prism-themes/themes/prism-shades-of-purple.min.css';
 
 	import Newsletter from '../components/Newsletter.svelte';
-	import Reactions from '../components/Reactions.svelte';
+
 
 	/** @type {import('$lib/types').ContentItem} */
 	export let json; // warning: if you try to destructure content here, make sure to make it reactive, or your page content will not update when your user navigates
