@@ -49,8 +49,9 @@
 		<div class="flex w-full  mx-auto max-w-4xl  px-4">
 			<div class="flex flex-col">
 				<a sveltekit:prefetch href="/" class="pt-4"> ПОСТАМЕНТ 69 </a>
-				<a sveltekit:prefetch href="/now" class="pt-4"> Эфир </a>
-				<a sveltekit:prefetch href="/sponsoram" class="pt-4"> Спонсорам </a>
+				<a sveltekit:prefetch href="/about" class="pt-4"> О нас </a>
+				<a sveltekit:prefetch href="/feedback" class="pt-4"> Отзывы </a>
+				<a sveltekit:prefetch href="/contacts" class="pt-4"> Контакты </a>
 			</div>
 			<div class="ml-4 flex flex-col">
 				<a sveltekit:prefetch href="/bands" class="pt-4"> Участники </a>
