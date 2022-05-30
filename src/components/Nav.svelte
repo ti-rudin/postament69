@@ -60,13 +60,13 @@
 				<NavLink href="/">ПОСТАМЕНТ 69</NavLink>
 			</li>
 			<li>
-				<NavLink href="/bands">О нас</NavLink>
+				<NavLink href="/about">О нас</NavLink>
 			</li>
 			<li>
-				<NavLink href="/bands">Отзывы</NavLink>
+				<NavLink href="/feedback">Отзывы</NavLink>
 			</li>
 			<li>
-				<NavLink href="/bands">Контакты</NavLink>
+				<NavLink href="/contacts">Контакты</NavLink>
 			</li>
 		</ul>
 
