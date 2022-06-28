@@ -38,30 +38,36 @@
 	<meta name="twitter:image" content={DEFAULT_OG_IMAGE} />
 </svelte:head>
 
-<div class="flex flex-col justify-center bg-white/70 px-4 dark:bg-gray-400/10 ">
+<div class="flex flex-col px-4 justify-center bg-white/70  dark:bg-gray-400/10 ">
 	<Nav />
 </div>
-<main class=" flex flex-col justify-center bg-gray-100/50 px-4 pb-4 pt-3 dark:bg-gray-900 sm:px-8 transition-all ">
+<main class=" flex flex-col px-4 justify-center bg-gray-100/50  pb-4 pt-3 dark:bg-gray-900  transition-all ">
 	<slot />
 </main>
 
 	<footer class="z-20 w-full mb-4 flex   flex-col  bg-gray-300 dark:bg-black/20 items-start justify-center">
-		<div class="flex w-full  mx-auto max-w-4xl  px-4">
+		<div class="flex   mx-auto max-w-4xl  px-4">
 			<div class="flex flex-col">
-				<a sveltekit:prefetch href="/" class="pt-4"> ПОСТАМЕНТ 69 </a>
-				<a sveltekit:prefetch href="/about" class="pt-4"> О нас </a>
+				<a sveltekit:prefetch href="/" class="pt-4">Главная </a>
+				
 
 			</div>
 			<div class="ml-4 flex flex-col">
+				<a sveltekit:prefetch href="/about" class="pt-4"> О нас </a>
+			</div>
+			<div class="ml-4 flex flex-col">
 				<a sveltekit:prefetch href="/feedback" class="pt-4"> Отзывы </a>
+
+			</div>
+			<div class="ml-4 flex flex-col">
+
 				<a sveltekit:prefetch href="/contacts" class="pt-4"> Контакты </a>
 			</div>
 			<div class="mx-auto" />
 		</div>
-		<div class="mt-5 flex w-full  flex-col">
-			<div class="mx-auto mt-2 flex">
+		<div class="mt-3 flex w-full  flex-col">
+			<div class="mx-auto flex">
 				<div class="lblock  text-right">2022<a class="px-1" href="/rights">©</a>Постамент 69</div>
-				<a sveltekit:prefetch href="/privacy" class="lblock ml-3 pt-1 text-sm"> Условия использования</a>
 			</div>
 		</div>
 	</footer>
