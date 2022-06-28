@@ -50,42 +50,13 @@
 			<div class="flex flex-col">
 				<a sveltekit:prefetch href="/" class="pt-4"> ПОСТАМЕНТ 69 </a>
 				<a sveltekit:prefetch href="/about" class="pt-4"> О нас </a>
+
+			</div>
+			<div class="ml-4 flex flex-col">
 				<a sveltekit:prefetch href="/feedback" class="pt-4"> Отзывы </a>
 				<a sveltekit:prefetch href="/contacts" class="pt-4"> Контакты </a>
 			</div>
-			<div class="ml-4 flex flex-col">
-				<a sveltekit:prefetch href="/bands" class="pt-4"> Участники </a>
-				<a sveltekit:prefetch href="/manual" class="pt-4"> Инструкция </a>
-				<a sveltekit:prefetch href="/kabinet" class="pt-4"> Кабинет </a>
-			</div>
 			<div class="mx-auto" />
-			<div class="container_develop space-between flex flex-col pb-0 pl-10">
-				<a href="/ti">
-					<div class="cub_container">
-						<div class="front side">
-							<svg
-								width="40"
-								height="40"
-								viewBox="0 0 52 53"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									fill-rule="evenodd"
-									clip-rule="evenodd"
-									d="M0 0H52V53H0V0ZM50 19V25.4059H41.9062V19H50ZM50 51V27.0985H41.9062V40.8481C41.4843 46.5375 45.0535 50.7028 50 51ZM40.0361 25.479V19.0964H16V25.4785H24.1913V51H32.2826V25.479H40.0361Z"
-									fill="#1A80D3"
-								/>
-							</svg>
-						</div>
-						<div class="right side pr-8 text-right">
-							<p>Создание<br />и поддержка<br />Ti-UNITS.RU</p>
-						</div>
-					</div>
-				</a>
-				<div my-auto>&nbsp;</div>
-				<a href="/blog" class="pt-4">Журнал </a>
-			</div>
 		</div>
 		<div class="mt-5 flex w-full  flex-col">
 			<div class="mx-auto mt-2 flex">
