@@ -88,9 +88,8 @@
 			</div>
 		</div>
 		<div class="mt-5 flex w-full  flex-col">
-			<a href="/feedback" class="feedback mx-auto pb-2"> Отзывы и предложения </a>
 			<div class="mx-auto mt-2 flex">
-				<div class="lblock  text-right">2022<a class="px-1" href="/rights">©</a>РОКТВЕРЬ</div>
+				<div class="lblock  text-right">2022<a class="px-1" href="/rights">©</a>Постамент 69</div>
 				<a sveltekit:prefetch href="/privacy" class="lblock ml-3 pt-1 text-sm"> Условия использования</a>
 			</div>
 		</div>
