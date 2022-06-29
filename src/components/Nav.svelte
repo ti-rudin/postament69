@@ -62,9 +62,7 @@
 			<li>
 				<NavLink href="/about">О нас</NavLink>
 			</li>
-			<li>
-				<NavLink href="/feedback">Отзывы</NavLink>
-			</li>
+
 			<li>
 				<NavLink href="/contacts">Контакты</NavLink>
 			</li>

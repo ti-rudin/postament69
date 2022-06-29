@@ -60,15 +60,15 @@
 	</button>
 	{#if isOpen}
 		<ul
-			class="menu absolute flex flex-col bg-gray-50 text-xl  uppercase dark:bg-gray-900"
+			class="menu absolute flex flex-col bg-gray-50 text-md  uppercase dark:bg-gray-900"
 			class:menuRendered={isMenuRendered}
-		>
+		 >
 			<li
 				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/">Главная</a
@@ -79,7 +79,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/pamyatniki">Памятники</a
@@ -90,7 +90,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/econom">&nbsp;&nbsp;&nbsp;Экономичные</a
@@ -101,7 +101,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/vertical">&nbsp;&nbsp;&nbsp;Вертикальные</a
@@ -112,7 +112,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/gorizontal">&nbsp;&nbsp;&nbsp;Горизонтальные</a
@@ -123,7 +123,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/arki-kolonny">&nbsp;&nbsp;&nbsp;Арки и колонны</a
@@ -134,7 +134,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/s-krestom">&nbsp;&nbsp;&nbsp;С крестом</a
@@ -145,7 +145,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/elit">&nbsp;&nbsp;&nbsp;Элитные</a
@@ -156,7 +156,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/complex">Комплексы</a
@@ -167,7 +167,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/ogrady">Ограды</a
@@ -178,7 +178,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/cvetniki">Цветники</a
@@ -189,7 +189,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/plity">Надгробные плиты</a
@@ -200,7 +200,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/stoly-lavki">Столы и лавочки</a
@@ -211,7 +211,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/oformlenie">Оформление</a
@@ -222,7 +222,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/fotoceramic">&nbsp;&nbsp;&nbsp;Фотокерамика</a
@@ -233,7 +233,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/foto-na-stekle">&nbsp;&nbsp;&nbsp;Фото на стекле</a
@@ -244,7 +244,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/bukvy-iz-metalla">&nbsp;&nbsp;&nbsp;Буквы из металла</a
@@ -255,7 +255,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/skarpel-pozolota">&nbsp;&nbsp;&nbsp;Скарпель и Позолота</a
@@ -266,7 +266,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/peskostrui">&nbsp;&nbsp;&nbsp;Пескоструй</a
@@ -277,7 +277,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/plitka">Плитка</a
@@ -288,7 +288,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/tablichki">Таблички</a
@@ -299,7 +299,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/gravirovka">Гравировка</a
@@ -308,13 +308,13 @@
 
 
 
-			<div class="h-5" />
+			<div class="h-10" />
 			<li
 				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/about">О компании</a
@@ -325,7 +325,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/works">Работы</a
@@ -336,7 +336,7 @@
 				style="transition-delay: 150ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/contacts">Контакты</a
@@ -349,7 +349,7 @@
 				style="transition-delay: 400ms;"
 			>
 				<a
-					class="flex w-auto pb-4"
+					class="flex w-auto py-2"
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="https://github.com/sw-yx/swyxkit">GitHub</a
 				>
@@ -358,7 +358,7 @@
 			class="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 font-semibold"
 			style="transition-delay: 325ms;"
 		>
-			<a class="flex w-auto pb-4" on:click={() => setTimeout(() => isOpen = false, 200)} href="/tweets">Tweets</a>
+			<a class="flex w-auto py-2" on:click={() => setTimeout(() => isOpen = false, 200)} href="/tweets">Tweets</a>
 		</li> -->
 		</ul>
 	{/if}
@@ -399,7 +399,7 @@
 	}
 
 	.menu li {
-		transform: translateX(-16px);
+		transform: translateX(-6px);
 		opacity: 0;
 		transition: opacity 300ms ease, transform 300ms ease, width 300ms ease, border-color 300ms ease;
 		width: 0px;
@@ -416,9 +416,7 @@
 		opacity: 1;
 	}
 
-	.menu > * + * {
-		margin-top: 24px;
-	}
+
 
 	@keyframes grow {
 		0% {
