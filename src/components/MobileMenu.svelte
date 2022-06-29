@@ -82,7 +82,73 @@
 					class="flex w-auto pb-4"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/bands">Команды</a
+					href="/pamyatniki">Памятники</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300  font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/econom">&nbsp;&nbsp;&nbsp;Экономичные</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300  font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/vertical">&nbsp;&nbsp;&nbsp;Вертикальные</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/gorizontal">&nbsp;&nbsp;&nbsp;Горизонтальные</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/arki-kolonny">&nbsp;&nbsp;&nbsp;Арки и колонны</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/s-krestom">&nbsp;&nbsp;&nbsp;С крестом</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/elit">&nbsp;&nbsp;&nbsp;Элитные</a
 				>
 			</li>
 			<li
@@ -93,12 +159,155 @@
 					class="flex w-auto pb-4"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/now">Сейчас в эфире</a
+					href="/complex">Комплексы</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/ogrady">Ограды</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/cvetniki">Цветники</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/plity">Надгробные плиты</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/stoly-lavki">Столы и лавочки</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/oformlenie">Оформление</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/fotoceramic">&nbsp;&nbsp;&nbsp;Фотокерамика</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/foto-na-stekle">&nbsp;&nbsp;&nbsp;Фото на стекле</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/bukvy-iz-metalla">&nbsp;&nbsp;&nbsp;Буквы из металла</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/skarpel-pozolota">&nbsp;&nbsp;&nbsp;Скарпель и Позолота</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/peskostrui">&nbsp;&nbsp;&nbsp;Пескоструй</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/plitka">Плитка</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/tablichki">Таблички</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/gravirovka">Гравировка</a
 				>
 			</li>
 
-	
-			
+
+
 			<div class="h-5" />
 			<li
 				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
@@ -108,20 +317,9 @@
 					class="flex w-auto pb-4"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/ti">О приложении</a
+					href="/about">О компании</a
 				>
 			</li>
-			<li
-			class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-			style="transition-delay: 150ms;"
-		>
-			<a
-				class="flex w-auto pb-4"
-				sveltekit:prefetch
-				on:click={() => setTimeout(() => (isOpen = false), 300)}
-				href="/blog">Журнал изменений</a
-			>
-		</li>
 			<li
 				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
 				style="transition-delay: 150ms;"
@@ -130,7 +328,18 @@
 					class="flex w-auto pb-4"
 					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/sponsoram">Спонсорам</a
+					href="/works">Работы</a
+				>
+			</li>
+			<li
+				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
+				style="transition-delay: 150ms;"
+			>
+				<a
+					class="flex w-auto pb-4"
+					sveltekit:prefetch
+					on:click={() => setTimeout(() => (isOpen = false), 300)}
+					href="/contacts">Контакты</a
 				>
 			</li>
 
@@ -176,11 +385,12 @@
 	.menu {
 		padding: 0 180px 0 4px;
 		margin: 0;
+		padding-bottom: 70px;
 		padding-top: 24px;
 		padding-left: 19px;
 		width: calc(99vw - 4px);
 		left: -16px;
-		height: 99vh;
+		height: auto;
 		z-index: 1000;
 		opacity: 0;
 		top: 4.3rem;
