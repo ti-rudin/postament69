@@ -8,6 +8,7 @@
 	} from '$lib/siteConfig';
 
 	import '../tailwind.css';
+	import NavLink from '../components/NavLink.svelte';
 	import Nav from '../components/Nav.svelte';
 	import { screenmode } from '$lib/siteConfig';
 	import { isAuthenticated, user } from '$lib/stores/auth';
@@ -38,164 +39,167 @@
 	<Nav />
 </div>
 <main
-	class=" flex flex-col  justify-center bg-gray-100/50 px-4  py-2 pt-3 transition-all  dark:bg-gray-900 "
+	class=" flex flex-col  justify-center bg-gray-100/50 px-4  p-2 pt-3 transition-all  dark:bg-gray-900 "
 >
 	<div class=" mx-auto  flex  w-full max-w-4xl">
-		<div class="sidemenu">
+		<div class="sidemenu  border-r-2 border-red-200 dark:border-red-200/50">
 			<ul class="menu flex flex-col text-sm  uppercase dark:bg-gray-900">
 				<li
-					class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="hover:rounded-lg border-b border-gray-300 p-1 font-semibold text-gray-900
+					transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 "
+					
 				>
-					<a class="flex w-auto py-2" href="/pamyatniki">Памятники</a>
+					<a class="flex w-auto p-2" href="/pamyatniki">Памятники</a>
 				</li>
 				<li
-					class="border-b border-gray-300  font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/econom">&nbsp;&nbsp;&nbsp;Экономичные</a>
+					<a class="flex w-auto p-2" href="/econom">&nbsp;&nbsp;&nbsp;Экономичные</a>
 				</li>
 				<li
-					class="border-b border-gray-300  font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/vertical">&nbsp;&nbsp;&nbsp;Вертикальные</a>
+					<a class="flex w-auto p-2" href="/vertical">&nbsp;&nbsp;&nbsp;Вертикальные</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/gorizontal">&nbsp;&nbsp;&nbsp;Горизонтальные</a>
+					<a class="flex w-auto p-2" href="/gorizontal">&nbsp;&nbsp;&nbsp;Горизонтальные</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/arki-kolonny">&nbsp;&nbsp;&nbsp;Арки и колонны</a>
+					<a class="flex w-auto p-2" href="/arki-kolonny">&nbsp;&nbsp;&nbsp;Арки и колонны</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/s-krestom">&nbsp;&nbsp;&nbsp;С крестом</a>
+					<a class="flex w-auto p-2" href="/s-krestom">&nbsp;&nbsp;&nbsp;С крестом</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/elit">&nbsp;&nbsp;&nbsp;Элитные</a>
+					<a class="flex w-auto p-2" href="/elit">&nbsp;&nbsp;&nbsp;Элитные</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-semibold hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/complex">Комплексы</a>
+					<a class="flex w-auto p-2" href="/complex">Комплексы</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-semibold hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/ogrady">Ограды</a>
+					<a class="flex w-auto p-2" href="/ogrady">Ограды</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-semibold hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/cvetniki">Цветники</a>
+					<a class="flex w-auto p-2" href="/cvetniki">Цветники</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-semibold hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/plity">Надгробные плиты</a>
+					<a class="flex w-auto p-2" href="/plity">Надгробные плиты</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-semibold hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/stoly-lavki">Столы и лавочки</a>
+					<a class="flex w-auto p-2" href="/stoly-lavki">Столы и лавочки</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-semibold hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/oformlenie">Оформление</a>
+					<a class="flex w-auto p-2" href="/oformlenie">Оформление</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/fotoceramic">&nbsp;&nbsp;&nbsp;Фотокерамика</a>
+					<a class="flex w-auto p-2" href="/fotoceramic">&nbsp;&nbsp;&nbsp;Фотокерамика</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/foto-na-stekle">&nbsp;&nbsp;&nbsp;Фото на стекле</a>
+					<a class="flex w-auto p-2" href="/foto-na-stekle">&nbsp;&nbsp;&nbsp;Фото на стекле</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/bukvy-iz-metalla">&nbsp;&nbsp;&nbsp;Буквы из металла</a
+					<a class="flex w-auto p-2" href="/bukvy-iz-metalla">&nbsp;&nbsp;&nbsp;Буквы из металла</a
 					>
 				</li>
 				<li
-					class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/skarpel-pozolota"
+					<a class="flex w-auto p-2" href="/skarpel-pozolota"
 						>&nbsp;&nbsp;&nbsp;Скарпель и Позолота</a
 					>
 				</li>
 				<li
-					class="border-b border-gray-300 font-normal text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-normal hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/peskostrui">&nbsp;&nbsp;&nbsp;Пескоструй</a>
+					<a class="flex w-auto p-2" href="/peskostrui">&nbsp;&nbsp;&nbsp;Пескоструй</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-semibold hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/plitka">Плитка</a>
+					<a class="flex w-auto p-2" href="/plitka">Плитка</a>
 				</li>
 				<li
-					class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class="border-b border-gray-300 font-semibold hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/tablichki">Таблички</a>
+					<a class="flex w-auto p-2" href="/tablichki">Таблички</a>
 				</li>
 				<li
-					class=" border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-					style="transition-delay: 150ms;"
+					class=" border-gray-300 font-semibold hover:rounded-lg transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800 text-gray-900 dark:border-gray-700 dark:text-gray-100"
+					
 				>
-					<a class="flex w-auto py-2" href="/gravirovka">Гравировка</a>
+					<a class="flex w-auto p-2" href="/gravirovka">Гравировка</a>
 				</li>
-
 			</ul>
 		</div>
-		<slot />
+		<div class="flex flex-col  pl-4"><slot /></div>
 	</div>
 </main>
 
 <footer
 	class="z-20 mb-4 flex w-full   flex-col  items-start justify-center bg-gray-300 dark:bg-black/20"
 >
-	<div class="mx-auto   flex max-w-4xl  px-4">
-		<div class="flex flex-col">
-			<a href="/" class="pt-4">Главная </a>
+	<div class="mx-auto   flex max-w-4xl mt-2 ">
+		<div class="flex py-2 px-4 flex-col hover:rounded-lg font-semibold text-gray-900
+		transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800">
+			<a href="/">Главная </a>
 		</div>
-		<div class="ml-4 flex flex-col">
-			<a href="/about" class="pt-4"> О нас </a>
+		<div class="flex py-2 px-4 flex-col hover:rounded-lg font-semibold text-gray-900
+		transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800">
+			<a href="/about" > О нас </a>
 		</div>
 
-		<div class="ml-4 flex flex-col">
-			<a href="/contacts" class="pt-4"> Контакты </a>
+		<div class="flex py-2 px-4 flex-col hover:rounded-lg font-semibold text-gray-900
+		transition-all hover:bg-red-200  dark:border-gray-700 dark:text-gray-100  dark:hover:bg-red-800">
+			<a href="/contacts"> Контакты </a>
 		</div>
 		<div class="mx-auto" />
 	</div>
-	<div class="mt-3 flex w-full  flex-col">
+	<div class="mt-1 flex w-full  flex-col">
 		<div class="mx-auto flex">
 			<div class="lblock  text-right">2022<a class="px-1" href="/rights">©</a>Постамент 69</div>
 		</div>
@@ -204,7 +208,7 @@
 
 <style>
 	.sidemenu {
-		margin-right: 1rem;
+		padding-right: 1rem;
 	}
 	@media (max-width: 768px) {
 		.sidemenu {
